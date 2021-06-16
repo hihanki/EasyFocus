@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.AboutAppController">
+    <children>
+        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: #ccbfbc;" VBox.vgrow="ALWAYS">
+            <children>
+                <FlowPane prefHeight="25.0" prefWidth="640.0" style="-fx-background-color: #b5938f;">
+               <children>
+                  <Text fx:id="text1" fill="#6b0707" strokeType="OUTSIDE" strokeWidth="0.0" text="Руководство по использованию приложения EasyFocus" textAlignment="CENTER" wrappingWidth="509.13671875">
+                     <font>
+                        <Font name="Comic Sans MS" size="17.0" />
+                     </font>
+                  </Text>
+               </children></FlowPane>
+            <Text fx:id="text2" fill="#6b0707" layoutX="12.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Данное приложение разработано с целью фокусировки внимания за счёт использования таймера и дополнительных инструментов." textAlignment="JUSTIFY" wrappingWidth="615.13671875">
+               <font>
+                  <Font name="Comic Sans MS" size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="text3" fill="#6b0707" layoutX="12.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Установите таймер на нужное время, нажмите кнопку *Старт/стоп*. Для преждевременной остановки таймера нажмите эту же кнопку еще раз." textAlignment="JUSTIFY" wrappingWidth="615.13671875">
+               <font>
+                  <Font name="Comic Sans MS" size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="text4" fill="#6b0707" layoutX="12.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Если в процессе работы вам потребуется что-либо записать, используйте заметки, размещенные справа от таймера. Перед выходом из приложения не забудьте сохранить то, что написали в заметках. После - можете открыть предыдущие записи в приложении." textAlignment="JUSTIFY" wrappingWidth="615.13671875">
+               <font>
+                  <Font name="Comic Sans MS" size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="text5" fill="#6b0707" layoutX="12.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="При запуске таймера, включается музыка, для лучшей фокусировки. Вы можете выбрать аудио на ваш вкус в настройках или вообще отключить музыку, нажатием на кнопку." textAlignment="JUSTIFY" wrappingWidth="615.13671875">
+                <font>
+                    <Font name="Comic Sans MS" size="15.0" />
+                </font>
+            </Text>
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>
